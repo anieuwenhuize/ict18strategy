@@ -9,4 +9,8 @@ public class ShoppingCart {
     public ShoppingCart() {
         _items = new ArrayList<>();
     }
+
+    public void accept(Product product) {
+        _items.add(product);
+    }
 }
